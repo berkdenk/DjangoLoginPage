@@ -1,0 +1,18 @@
+{% extends "index.html" %}
+
+{% block content %}
+<h2>Login</h2>
+    <form method="post">
+        {% csrf_token %}
+        {% if error_message %}
+            <p>{{ error_message }}</p>
+        {% endif %}
+        {% if alert_message %}
+            <p>{{ alert_message }}</p>
+        {% endif %}
+        <input type="text" name="username" placeholder="Username"><br>
+        <input type="password" name="password" placeholder="Password"><br>
+        <button type="submit">Login</button>
+    </form>
+{%endblock%}
+

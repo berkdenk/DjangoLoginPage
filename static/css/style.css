@@ -1,0 +1,56 @@
+/* Navbar */
+.navbar {
+    background-color: #333; /* Navbar arka plan rengi */
+    overflow: hidden;
+}
+
+/* Navbar linkleri */
+.navbar a {
+    float: left;
+    display: block;
+    color: white; /* Link rengi */
+    text-align: center;
+    padding: 14px 20px; /* Link padding (üst ve alt) */
+    text-decoration: none; /* Link altı çizgisi */
+}
+
+/* Navbar linklerinin hover (üzerine gelindiğinde) durumu */
+.navbar a:hover {
+    background-color: #ddd; /* Hover rengi */
+    color: black; /* Hover durumunda link rengi */
+}
+
+/* Navbar linklerinin aktif durumu */
+.navbar a.active {
+    background-color: #4CAF50; /* Aktif link arka plan rengi */
+    color: white; /* Aktif link rengi */
+}
+
+/* Navbar listesi */
+.nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+/* Navbar listesi öğeleri */
+.nav-list li {
+    float: left;
+}
+
+/* Navbar listesi öğeleri arasındaki boşluk */
+.nav-list li a {
+    display: block;
+    padding: 8px;
+    color: white; /* Link rengi */
+    text-align: center;
+    text-decoration: none; /* Link altı çizgisi */
+}
+
+/* Navbar listesi öğelerinin hover (üzerine gelindiğinde) durumu */
+.nav-list li a:hover {
+    background-color: #ddd; /* Hover rengi */
+    color: black; /* Hover durumunda link rengi */
+}
+    
